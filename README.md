@@ -3,10 +3,15 @@ Bu proje, Collatz Teorisi tabanlı, yüksek istatistiksel kaliteye sahip ve krip
 
 🚀 Öne Çıkan Özellikler
 Collatz Teoremi Tabanlı Entropi: Kaotik sayı dizileri üretmek için matematiksel Collatz iterasyonlarını kullanır.
+
 Dual-Motor Mimarisi: İki bağımsız Collatz motoru (Motor A ve Motor B) paralel çalışarak karmaşıklığı artırır.
+
 Cross-Link Etkileşimi: Motorlar arası veri transferi (XOR geçişleri) ile "state" (durum) uzayı sürekli güncellenir.
+
 Von Neumann Deskewing: Üretilen bitler, istatistiksel taraflılığı (bias) yok etmek için Von Neumann filtrelemesinden geçirilerek %50/%50 (0/1) dengesine yaklaştırılır.
+
 İstatistiksel Test Desteği: NIST standartlarına benzer Ki-Kare, Runs ve Seri testlerini içerir.
+
 🛠 Çalışma Mantığı
 Başlangıç (Seeding): Algoritma, yüksek güvenliğe sahip secrets kütüphanesi ile 1024-bitlik iki farklı başlangıç durumu üretir.
 İterasyon: Motorlar Collatz kuralına ($3n+1$) göre dönerken, her 8 adımda bir birbirlerine veri aktarımı (cross-link) yaparlar.
