@@ -1,8 +1,10 @@
 CPLM (Collatz Parity Logic Machine) - Rastgele Sayı Üretici (RSÜ)
+
 Bu proje, Collatz Teorisi tabanlı, yüksek istatistiksel kaliteye sahip ve kriptografik düzeyde rastgelelik hedefleyen özgün bir Rastgele Dizi Üretme (RSÜ) algoritmasıdır.
 CPLM, çift motorlu yapısı ve gelişmiş filtreleme teknikleriyle 0 ve 1 dağılım dengesini mükemmel bir şekilde sağlar.
 
 🚀 Öne Çıkan Özellikler
+
 Collatz Teoremi Tabanlı Entropi: Kaotik sayı dizileri üretmek için matematiksel Collatz iterasyonlarını kullanır.
 
 Dual-Motor Mimarisi: İki bağımsız Collatz motoru (Motor A ve Motor B) paralel çalışarak karmaşıklığı artırır.
