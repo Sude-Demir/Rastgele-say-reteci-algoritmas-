@@ -14,8 +14,11 @@ Von Neumann Deskewing: Üretilen bitler, istatistiksel taraflılığı (bias) yo
 
 🛠 Çalışma Mantığı
 Başlangıç (Seeding): Algoritma, yüksek güvenliğe sahip secrets kütüphanesi ile 1024-bitlik iki farklı başlangıç durumu üretir.
+
 İterasyon: Motorlar Collatz kuralına ($3n+1$) göre dönerken, her 8 adımda bir birbirlerine veri aktarımı (cross-link) yaparlar.
+
 Bit Çıkarımı: Motorların o anki durumlarının pariteleri (tek/çift) XOR işlemine sokularak ham bit dizisi elde edilir.
+
 Filtreleme: 00 ve 11 çiftleri atılır, 01 -> 0 ve 10 -> 1 olarak kabul edilerek istatistiksel denge sağlanır.
 
 📊 İstatistiksel Başarı Raporu
